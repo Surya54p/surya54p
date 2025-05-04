@@ -17,3 +17,7 @@ Here are some ideas to get you started:
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=surya54p&theme=default&show_icons=true&hide_border=true&count_private=true)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=surya54p&theme=default&show_icons=true&hide_border=true&layout=compact)
 ![GitHub Stats](https://streak-stats.demolab.com?user=surya54p&theme=default&hide_border=true)
+
+![Laravel](https://img.shields.io/badge/framework-Laravel-red)
+![PHP](https://img.shields.io/badge/language-PHP-blue)
+![HTML](https://img.shields.io/badge/language-HTML-orange)
