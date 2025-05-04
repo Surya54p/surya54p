@@ -22,4 +22,4 @@ Here are some ideas to get you started:
 ![PHP](https://img.shields.io/badge/language-PHP-blue)
 ![HTML](https://img.shields.io/badge/language-HTML-orange)
 
-![Top Lang](https://img.shields.io/github/languages/top/surya54p/portofolio-nextjs-2025)
+![Top Lang](https://img.shields.io/github/languages/top/surya54p/portofolio-online-nextjs-2025)
