@@ -22,4 +22,10 @@ Here are some ideas to get you started:
 ![PHP](https://img.shields.io/badge/language-PHP-blue)
 ![HTML](https://img.shields.io/badge/language-HTML-orange)
 
+![TailwindCSS](https://img.shields.io/badge/style-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
+![Next.js](https://img.shields.io/badge/framework-Next.js-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/language-TypeScript-3178C6?logo=typescript)
+![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?logo=prisma&logoColor=white)
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)
+
 ![Top Lang](https://img.shields.io/github/languages/top/surya54p/portofolio-online-nextjs-2025)
