@@ -28,4 +28,4 @@ Here are some ideas to get you started:
 ![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?logo=prisma&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)
 
-![Top Lang](https://img.shields.io/github/languages/top/surya54p/portofolio-online-nextjs-2025)
+![Custom Badge](https://img.shields.io/badge/Nama%20Sendiri-Keren-%23FF5733)
