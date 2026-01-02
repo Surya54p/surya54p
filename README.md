@@ -1,16 +1,24 @@
 ## 👋 Hi there! I'm Surya
+Welcome to my GitHub profile — a collection of my learning, experiments, projects, and coding journey 🚀
 
-Welcome to my GitHub profile — a collection of my experiments, projects, and coding journey 🚀
+### 👨‍💻 About Me
+I'm a backend-leaning developer who enjoys building APIs, exploring system design,
+and experimenting with modern web stacks. Currently sharpening my skills in Go,
+Next.js, and database-driven applications.
 
-### 🔥 GitHub Stats
+---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=surya54p&theme=default&show_icons=true&hide_border=true&count_private=true" alt="Surya's GitHub Stats" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=surya54p&theme=default&layout=compact&hide_border=true" alt="Top Languages" />
-  <br />
-  <img src="https://streak-stats.demolab.com?user=surya54p&theme=default&hide_border=true" alt="GitHub Streak" />
-</p>
+### 🧩 What I Care About
+- Clean & readable code
+- Communication over instinc
+- Building things that actually work 
+
+---
+
+### 📚 Currently Learning
+- Golang (net/http, JWT, clean architecture)
+- System design basics
+- API security & authentication
 
 ---
 
@@ -23,12 +31,17 @@ Welcome to my GitHub profile — a collection of my experiments, projects, and c
 
 #### 🌐 Frontend
 ![HTML](https://img.shields.io/badge/HTML-orange?logo=html5&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![SweetAlert2](https://img.shields.io/badge/SweetAlert2-FF5A5F)
 
-#### 🗄️ Database
+#### 🗄️ Database & Tools
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
+![HeidiSQL](https://img.shields.io/badge/HeidiSQL-2C2C2C)
 
 ---
 
