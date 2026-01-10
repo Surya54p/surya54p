@@ -46,8 +46,8 @@ Next.js, and database-driven applications.
 ---
 
 ### 🔍 In Learn
-- Golang
-- FastAPI
+![Golang](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 
 ---
 
