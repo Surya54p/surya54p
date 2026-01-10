@@ -45,6 +45,12 @@ Next.js, and database-driven applications.
 
 ---
 
+### 🔍 In Learn
+- Golang
+- FastAPI
+
+---
+
 ### 😄 Fun Badge 
 
 ![Custom Badge](https://img.shields.io/badge/Surya-ganteng-%23FF5733)
