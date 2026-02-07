@@ -2,7 +2,7 @@
 Welcome to my GitHub profile — a collection of my learning, experiments, projects, and coding journey 🚀
 
 ### 👨‍💻 About Me
-I'm a backend-leaning developer who enjoys building APIs, exploring system design,
+I'm a Frontend, backend, and Ux/Ux who enjoys building Apps, exploring system design,
 and experimenting with modern web stacks. Currently sharpening my skills in Go,
 Next.js, and database-driven applications.
 
