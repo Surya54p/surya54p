@@ -28,6 +28,7 @@ Next.js, and database-driven applications.
 ![Laravel](https://img.shields.io/badge/Laravel-red?logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-blue?logo=php&logoColor=white)
 ![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?logo=prisma&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 
 #### 🌐 Frontend
 ![HTML](https://img.shields.io/badge/HTML-orange?logo=html5&logoColor=white)
@@ -47,7 +48,6 @@ Next.js, and database-driven applications.
 
 ### 🔍 In Learn
 ![Golang](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 
 ---
 
