@@ -2,9 +2,7 @@
 Welcome to my GitHub profile — a collection of my learning, experiments, projects, and coding journey 🚀
 
 ### 👨‍💻 About Me
-I'm a Frontend, backend, and Ux/Ux who enjoys building Apps, exploring system design,
-and experimenting with modern web stacks. Currently sharpening my skills in Go,
-Next.js, and database-driven applications.
+I'm a Frontend, Backend, and Ui/Ux who enjoys building Apps, exploring system design, and experiments. Currently sharpening my skills in Fast API, database-driven applications, architecture and understanding complex business rules.
 
 ---
 
@@ -16,9 +14,11 @@ Next.js, and database-driven applications.
 ---
 
 ### 📚 Currently Learning
-- Golang (net/http, JWT, clean architecture)
-- System design basics
-- API security & authentication
+- Fast API, Golang, React
+- System design
+- Implementing business rules
+- API
+- Security
 
 ---
 
@@ -31,17 +31,17 @@ Next.js, and database-driven applications.
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 
 #### 🌐 Frontend
-![HTML](https://img.shields.io/badge/HTML-orange?logo=html5&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-000000?logo=shadcnui&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?logo=leaflet&logoColor=white)
 ![SweetAlert2](https://img.shields.io/badge/SweetAlert2-FF5A5F)
 
 #### 🗄️ Database & Tools
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![HeidiSQL](https://img.shields.io/badge/HeidiSQL-2C2C2C)
 
 ---
