@@ -9,7 +9,7 @@ I'm a Frontend, Backend, and Ui/Ux who enjoys building Apps, exploring system de
 ### 🧩 What I Care About
 - Clean & readable code
 - Communication over instinc
-- Building things that actually work 
+- Solve problems over hiding it
 
 ---
 
