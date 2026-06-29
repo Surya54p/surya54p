@@ -57,5 +57,7 @@ I'm a Frontend, Backend, and Ui/Ux who enjoys building Apps, exploring system de
 
 ---
 
-> 🚧 *Still under construction. Just like all my projects...* 
+> 🚧 *Still under construction. Just like all my projects...*
+
+[![Surya54p GitHub stats](https://github-readme-stats.vercel.app/api?username=Surya54p)](https://github.com/Surya54p/github-readme-stats)
 
