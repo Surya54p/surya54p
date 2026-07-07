@@ -1,23 +1,34 @@
-## 👋 Hi there! I'm Surya
-Welcome to my GitHub profile — a collection of my learning, experiments, projects, and coding journey 🚀
+<!-- ===================== HEADER WAVE ANIMASI ===================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Hi%20There,%20I'm%20Surya%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn" width="100%"/>
+</p>
+
+<!-- ===================== TYPING ANIMATION ===================== -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Frontend+%2B+Backend+%2B+UI%2FUX+Developer;Exploring+FastAPI+%26+System+Design;Building+Apps+One+Commit+at+a+Time;Still+Under+Construction+🚧" alt="Typing SVG" />
+  </a>
+</p>
+
+---
 
 ### 👨‍💻 About Me
-I'm a Frontend, Backend, and Ui/Ux who enjoys building Apps, exploring system design, and experiments. Currently sharpening my skills in Fast API, database-driven applications, architecture and understanding complex business rules.
+I'm a Frontend, Backend, and UI/UX developer who enjoys building apps, exploring system design, and running experiments. Currently sharpening my skills in FastAPI, database-driven applications, architecture, and understanding complex business rules.
 
 ---
 
 ### 🧩 What I Care About
-- Clean & readable code
-- Communication over instinc
-- Solve problems over hiding it
+- 🧹 Clean & readable code
+- 🗣️ Communication over instinct
+- 🛠️ Solving problems over hiding them
 
 ---
 
 ### 📚 Currently Learning
-- Fast API, Golang, React
+- FastAPI, Golang, React
 - System design
 - Implementing business rules
-- API
+- API design
 - Security
 
 ---
@@ -44,20 +55,51 @@ I'm a Frontend, Backend, and Ui/Ux who enjoys building Apps, exploring system de
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![HeidiSQL](https://img.shields.io/badge/HeidiSQL-2C2C2C)
 
----
-
-### 🔍 In Learn
+#### 🔍 In Learn
 ![Golang](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
 
+<!-- Alternatif: ikon animasi hover pakai skillicons.dev -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=laravel,php,prisma,fastapi,react,nextjs,ts,tailwind,postgres,mysql,go&theme=dark" />
+</p>
+
 ---
 
-### 😄 Fun Badge 
+### 📊 GitHub Stats
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Surya54p&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Surya54p&theme=tokyonight&hide_border=true" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya54p&layout=compact&theme=tokyonight&hide_border=true" width="60%"/>
+</p>
+
+<!-- ===================== SNAKE CONTRIBUTION ANIMATION ===================== -->
+### 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Surya54p/Surya54p/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
+> ⚙️ Setup snake animation ini butuh GitHub Action `platane/snk` — instruksi lengkap ada di bagian bawah.
+
+---
+
+### 👀 Profile Views
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Surya54p&color=6366F1&style=flat&label=Profile+Views" />
+</p>
+
+---
+
+### 😄 Fun Badge
 ![Custom Badge](https://img.shields.io/badge/Surya-ganteng-%23FF5733)
 
 ---
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:6366F1&height=120&section=footer&animation=fadeIn"/>
+</p>
+
 > 🚧 *Still under construction. Just like all my projects...*
-
-[![Surya54p GitHub stats](https://github-readme-stats.vercel.app/api?username=Surya54p)](https://github.com/Surya54p/github-readme-stats)
-
