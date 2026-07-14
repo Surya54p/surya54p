@@ -3,13 +3,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Hi%20There,%20I'm%20Surya%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn" width="100%"/>
 </p>
 
-<!-- ===================== TYPING ANIMATION ===================== -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Frontend+%2B+Backend+%2B+UI%2FUX+Developer;Exploring+FastAPI+%26+System+Design;Building+Apps+One+Commit+at+a+Time;Still+Under+Construction+🚧" alt="Typing SVG" />
-  </a>
-</p>
-
 ---
 
 ### 👨‍💻 About Me
