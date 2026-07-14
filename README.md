@@ -58,27 +58,6 @@ I'm a Frontend, Backend, and UI/UX developer who enjoys building apps, exploring
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Surya54p&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Surya54p&theme=tokyonight&hide_border=true" width="48%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya54p&layout=compact&theme=tokyonight&hide_border=true" width="60%"/>
-</p>
-
-<!-- ===================== SNAKE CONTRIBUTION ANIMATION ===================== -->
-### 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Surya54p/Surya54p/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</p>
-
-> ⚙️ Setup snake animation ini butuh GitHub Action `platane/snk` — instruksi lengkap ada di bagian bawah.
-
----
-
 ### 👀 Profile Views
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Surya54p&color=6366F1&style=flat&label=Profile+Views" />
