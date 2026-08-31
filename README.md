@@ -5,36 +5,37 @@
 
 ---
 
-### 👨‍💻 About Me
-I'm a Frontend, Backend, and UI/UX developer who enjoys building apps, exploring system design, and running experiments. Currently sharpening my skills in FastAPI, database-driven applications, architecture, and understanding complex business rules.
+### About Me
+Hi, I'm Surya!
+Just a tech enthusiast who loves web development, building practical apps, exploring system architecture, and experimenting with new tools. Lately, I've been diving deeper into FastAPI, spec-driven development, and handling complex business rules.
+
+I don't claim to know everything, but I love getting my hands dirty with code, learning how systems work under the hood, and collaborating with others to build tools that actually help people.
 
 ---
 
-### 🧩 What I Care About
-- 🧹 Clean & readable code
-- 🗣️ Communication over instinct
-- 🛠️ Solving problems over hiding them
+### What I Care About
+- Clean & readable code
+- Open communication over instinct
+- Owning the outcome
 
 ---
 
-### 📚 Currently Learning
-- FastAPI, Golang, React
-- System design
-- Implementing business rules
-- API design
-- Security
+### Currently Learning
+- Backend & Systems: FastAPI, Golang, and API design with a spec-driven approach.
+- Frontend: Building responsive & accessible UIs with React.
+- Engineering Craft: Clean architecture, scalable system design, and application security.
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
-#### 🧠 Backend & Frameworks
+#### Backend & Frameworks
 ![Laravel](https://img.shields.io/badge/Laravel-red?logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-blue?logo=php&logoColor=white)
 ![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?logo=prisma&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 
-#### 🌐 Frontend
+#### Frontend
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -43,12 +44,12 @@ I'm a Frontend, Backend, and UI/UX developer who enjoys building apps, exploring
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?logo=leaflet&logoColor=white)
 ![SweetAlert2](https://img.shields.io/badge/SweetAlert2-FF5A5F)
 
-#### 🗄️ Database & Tools
+#### Database & Tools
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![HeidiSQL](https://img.shields.io/badge/HeidiSQL-2C2C2C)
 
-#### 🔍 In Learn
+#### In Learn
 ![Golang](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
 
 <!-- Alternatif: ikon animasi hover pakai skillicons.dev -->
@@ -58,14 +59,14 @@ I'm a Frontend, Backend, and UI/UX developer who enjoys building apps, exploring
 
 ---
 
-### 👀 Profile Views
+### Profile Views
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Surya54p&color=6366F1&style=flat&label=Profile+Views" />
 </p>
 
 ---
 
-### 😄 Fun Badge
+### Fun Badge
 ![Custom Badge](https://img.shields.io/badge/Surya-ganteng-%23FF5733)
 
 ---
