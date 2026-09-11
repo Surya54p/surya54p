@@ -1,33 +1,21 @@
-<!-- ===================== HEADER WAVE ANIMASI ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Hi%20There,%20I'm%20Surya%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn" width="100%"/>
-</p>
-
----
+# Hi there, I'm Surya 👋
 
 ### About Me
-Hi, I'm Surya!
-Just a tech enthusiast who loves web development, building practical apps, exploring system architecture, and experimenting with new tools. Lately, I've been diving deeper into FastAPI, spec-driven development, and handling complex business rules.
+Hi, I'm Surya! Just a tech enthusiast who loves web development, building practical apps, exploring system architecture, and experimenting with new tools. Lately, I've been diving deeper into FastAPI, spec-driven development, and handling complex business rules.
 
-I don't claim to know everything, but I love getting my hands dirty with code, learning how systems work under the hood, and collaborating with others to build tools that actually help people.
+*"I don't claim to know everything, but I love getting my hands dirty with code, learning how systems work under the hood, and collaborating with others to build tools that actually help people."*
 
----
-
-### What I Care About
+**What I Care About:**
 - Clean & readable code
 - Open communication over instinct
 - Owning the outcome
 
----
+**Currently Learning:**
+- **Backend & Systems:** FastAPI, Golang, and API design with a spec-driven approach.
+- **Frontend:** Building responsive & accessible UIs with React.
+- **Engineering Craft:** Clean architecture, scalable system design, and application security.
 
-### Currently Learning
-- Backend & Systems: FastAPI, Golang, and API design with a spec-driven approach.
-- Frontend: Building responsive & accessible UIs with React.
-- Engineering Craft: Clean architecture, scalable system design, and application security.
-
----
-
-### Tech Stack
+# Tech Stack
 
 #### Backend & Frameworks
 ![Laravel](https://img.shields.io/badge/Laravel-red?logo=laravel&logoColor=white)
@@ -52,27 +40,12 @@ I don't claim to know everything, but I love getting my hands dirty with code, l
 #### In Learn
 ![Golang](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
 
-<!-- Alternatif: ikon animasi hover pakai skillicons.dev -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,php,prisma,fastapi,react,nextjs,ts,tailwind,postgres,mysql,go&theme=dark" />
+  <img src="https://komarev.com/ghpvc/?username=Surya54p&color=6366F1&style=flat&label=Profile+Views" alt="Profile Views" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Surya-ganteng-%23FF5733" alt="Badge" />
 </p>
 
----
-
-### Profile Views
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Surya54p&color=6366F1&style=flat&label=Profile+Views" />
+  <sub>🚧 <i>Still under construction. Just like all my projects...</i></sub>
 </p>
-
----
-
-### Fun Badge
-![Custom Badge](https://img.shields.io/badge/Surya-ganteng-%23FF5733)
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:6366F1&height=120&section=footer&animation=fadeIn"/>
-</p>
-
-> 🚧 *Still under construction. Just like all my projects...*
