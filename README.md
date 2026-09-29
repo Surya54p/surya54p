@@ -19,36 +19,12 @@ Hi, I'm Surya! Just a tech enthusiast who loves web development, building practi
 {
   "engineering_dna": {
     "architecture": "Spec-Driven Development (SDD)",
-    "data_policy": "Zero-Fallback & High Integrity",
-    "mindset": "Open communication, clean code & outcome ownership"
-  },
-  "active_r_and_d": {
-    "backend_systems": [
-      "FastAPI",
-      "High-Concurrency Golang",
-      "PostgreSQL"
-    ],
-    "frontend_ux": [
-      "React 19",
-      "Next.js 16",
-      "Tailwind v4"
-    ],
-    "autonomous_tech": [
-      "Multi-Agent AI Workflows",
-      "Hermes Agent Pipelines"
-    ]
+    "data_integrity": "Zero-Fallback Policy",
+    "craftsmanship": "Clean, readable & maintainable code",
+    "ownership": "End-to-end accountability from design to production"
   }
 }
 ```
-
-<br/>
-
-### 🎯 Core Principles
-
-- **Spec-Driven Architecture:** Schema-first development with tight contracts across ORM, API, and UI layers.
-- **Zero-Fallback Policy:** Transparent data contracts without deceptive mock fallbacks that mask bugs.
-- **Engineering Craft:** Clean, readable code written for maintainability and scalability.
-- **Outcome Ownership:** Owning the system end-to-end, taking full accountability from architecture design to production reliability.
 
 <br/>
 
@@ -60,5 +36,5 @@ Hi, I'm Surya! Just a tech enthusiast who loves web development, building practi
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Surya54p/Surya54p/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
+  <img src="banner_footer.svg" width="100%" alt="Surya AP - Footer" />
 </div>
