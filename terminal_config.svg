@@ -7,24 +7,6 @@
     </filter>
   </defs>
 
-  <style>
-    .code-text {
-      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-      font-size: 13.5px;
-      line-height: 23px;
-    }
-    .bracket { fill: #f0f6fc; }
-    .key { fill: #7ee787; font-weight: 500; }
-    .str { fill: #a5d6ff; }
-    .punct { fill: #8b949e; }
-    .title-text {
-      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-      font-size: 12px;
-      fill: #8b949e;
-      font-weight: 500;
-    }
-  </style>
-
   <!-- Main Terminal Window Frame -->
   <g filter="url(#winShadow)">
     <!-- Window Body Background -->
@@ -40,37 +22,49 @@
     <circle cx="62" cy="25" r="5.5" fill="#27c93f" />
 
     <!-- File Title in Header -->
-    <text x="82" y="29" class="title-text">surya.config.json</text>
+    <text x="82" y="29" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#8b949e" font-weight="500">surya.config.json</text>
 
     <!-- Language Badge (Right Side) -->
     <rect x="806" y="17" width="50" height="16" rx="4" fill="#21262d" />
-    <text x="831" y="29" class="title-text" text-anchor="middle" font-size="10.5" fill="#7ee787">JSON</text>
+    <text x="831" y="29" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7ee787" text-anchor="middle" font-weight="600">JSON</text>
   </g>
 
-  <!-- JSON Code Body -->
-  <g class="code-text" xml:space="preserve">
+  <!-- JSON Code Body with inline presentation attributes -->
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" xml:space="preserve">
     <!-- Line 1: { -->
-    <text x="32" y="70"><tspan class="bracket">{</tspan></text>
+    <text x="32" y="70" fill="#f0f6fc">{</text>
 
     <!-- Line 2:   "engineering_dna": { -->
-    <text x="32" y="93"><tspan class="punct">  </tspan><tspan class="key">"engineering_dna"</tspan><tspan class="punct">: </tspan><tspan class="bracket">{</tspan></text>
+    <text x="32" y="93">
+      <tspan fill="#7ee787" font-weight="500">  "engineering_dna"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#f0f6fc">{</tspan>
+    </text>
 
     <!-- Line 3:     "architecture": "Spec-Driven Development (SDD)", -->
-    <text x="32" y="116"><tspan class="punct">    </tspan><tspan class="key">"architecture"</tspan><tspan class="punct">: </tspan><tspan class="str">"Spec-Driven Development (SDD)"</tspan><tspan class="punct">,</tspan></text>
+    <text x="32" y="116">
+      <tspan fill="#7ee787" font-weight="500">    "architecture"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#38bdf8">"Spec-Driven Development (SDD)"</tspan><tspan fill="#8b949e">,</tspan>
+    </text>
 
     <!-- Line 4:     "data_integrity": "Zero-Fallback Policy", -->
-    <text x="32" y="139"><tspan class="punct">    </tspan><tspan class="key">"data_integrity"</tspan><tspan class="punct">: </tspan><tspan class="str">"Zero-Fallback Policy"</tspan><tspan class="punct">,</tspan></text>
+    <text x="32" y="139">
+      <tspan fill="#7ee787" font-weight="500">    "data_integrity"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#38bdf8">"Zero-Fallback Policy"</tspan><tspan fill="#8b949e">,</tspan>
+    </text>
 
     <!-- Line 5:     "craftsmanship": "Clean, readable &amp; maintainable code", -->
-    <text x="32" y="162"><tspan class="punct">    </tspan><tspan class="key">"craftsmanship"</tspan><tspan class="punct">: </tspan><tspan class="str">"Clean, readable &amp; maintainable code"</tspan><tspan class="punct">,</tspan></text>
+    <text x="32" y="162">
+      <tspan fill="#7ee787" font-weight="500">    "craftsmanship"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#38bdf8">"Clean, readable &amp; maintainable code"</tspan><tspan fill="#8b949e">,</tspan>
+    </text>
 
     <!-- Line 6:     "ownership": "End-to-end accountability from design to production" -->
-    <text x="32" y="185"><tspan class="punct">    </tspan><tspan class="key">"ownership"</tspan><tspan class="punct">: </tspan><tspan class="str">"End-to-end accountability from design to production"</tspan></text>
+    <text x="32" y="185">
+      <tspan fill="#7ee787" font-weight="500">    "ownership"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#38bdf8">"End-to-end accountability from design to production"</tspan>
+    </text>
 
     <!-- Line 7:   } -->
-    <text x="32" y="208"><tspan class="punct">  </tspan><tspan class="bracket">}</tspan></text>
+    <text x="32" y="208">
+      <tspan fill="#8b949e">  </tspan><tspan fill="#f0f6fc">}</tspan>
+    </text>
 
     <!-- Line 8: } -->
-    <text x="32" y="231"><tspan class="bracket">}</tspan></text>
+    <text x="32" y="231" fill="#f0f6fc">}</text>
   </g>
 </svg>
