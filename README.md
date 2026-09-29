@@ -1,51 +1,41 @@
-# Hi there, I'm Surya 👋
+<!-- 1. ANIMATED HEADER (WAVE + TWINKLING) -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,50:0f172a,100:0284c7&height=220&section=header&text=Surya%20AP&fontSize=48&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=A%20developer%20who%20loves%20details%20%26%20system%20architecture&descAlignY=58&descAlign=50" width="100%" />
 
-### About Me
-Hi, I'm Surya! Just a tech enthusiast who loves web development, building practical apps, exploring system architecture, and experimenting with new tools. Lately, I've been diving deeper into FastAPI, spec-driven development, and handling complex business rules.
+  <!-- ANIMATED TYPING TERMINAL -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Software+Developer+%26+System+Architect;FastAPI+%7C+Next.js+%7C+PostgreSQL;Spec-Driven+Development+(SDD);Autonomous+AI+Agents" alt="Typing SVG" />
+</div>
 
-*"I don't claim to know everything, but I love getting my hands dirty with code, learning how systems work under the hood, and collaborating with others to build tools that actually help people."*
+<br/>
 
-**What I Care About:**
-- Clean & readable code
-- Open communication over instinct
-- Owning the outcome
+<!-- 2. RETRO SNAKE EATING COMMITS ANIMATION -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Surya54p/Surya54p/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
+</div>
 
-**Currently Learning:**
-- **Backend & Systems:** FastAPI, Golang, and API design with a spec-driven approach.
-- **Frontend:** Building responsive & accessible UIs with React.
-- **Engineering Craft:** Clean architecture, scalable system design, and application security.
+<br/>
 
-# Tech Stack
+<!-- 3. VISUAL TECH STACK -->
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,ts,react,nextjs,tailwind,php,laravel,linux,git&theme=dark" alt="Tech Stack" />
+  </a>
+</div>
 
-#### Backend & Frameworks
-![Laravel](https://img.shields.io/badge/Laravel-red?logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-blue?logo=php&logoColor=white)
-![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?logo=prisma&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+<br/>
 
-#### Frontend
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
-![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-000000?logo=shadcnui&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?logo=leaflet&logoColor=white)
-![SweetAlert2](https://img.shields.io/badge/SweetAlert2-FF5A5F)
+<!-- 4. ANIMATED STREAK & STATS -->
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Surya54p&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" height="170" />
+</div>
 
-#### Database & Tools
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![HeidiSQL](https://img.shields.io/badge/HeidiSQL-2C2C2C)
+<br/>
 
-#### In Learn
-![Golang](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
+<!-- 5. FOOTER WAVE -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,50:0f172a,100:0b0f19&height=120&section=footer" width="100%" />
+</div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Surya54p&color=6366F1&style=flat&label=Profile+Views" alt="Profile Views" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Surya-ganteng-%23FF5733" alt="Badge" />
-</p>
-
-<p align="center">
-  <sub>🚧 <i>Still under construction. Just like all my projects...</i></sub>
-</p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Surya54p&color=475569&style=flat-square&label=Profile+Views" alt="Profile Views" />
+</div>
