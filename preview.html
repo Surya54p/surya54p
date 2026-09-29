@@ -49,8 +49,13 @@
       padding-bottom: 8px;
       color: #f0f6fc;
       font-size: 1.4rem;
-      margin-top: 16px;
+      margin-top: 24px;
       margin-bottom: 16px;
+    }
+    h4 {
+      color: #f0f6fc;
+      margin-top: 0;
+      margin-bottom: 12px;
     }
     p {
       margin: 14px 0;
@@ -58,19 +63,105 @@
     blockquote {
       border-left: 3px solid #38bdf8;
       padding-left: 14px;
-      margin: 16px 0;
+      margin: 18px 0;
       color: #94a3b8;
       font-style: italic;
     }
     ul {
       padding-left: 20px;
-      margin: 12px 0;
+      margin: 10px 0;
     }
     li {
       margin-bottom: 6px;
     }
-    strong {
+    strong, b {
       color: #f0f6fc;
+    }
+
+    /* Terminal Code Window */
+    .terminal-window {
+      background: #090d16;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+      margin: 24px 0;
+      overflow: hidden;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 13px;
+    }
+    .terminal-header {
+      background: #161b22;
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #21262d;
+    }
+    .dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 7px;
+    }
+    .dot-red { background: #ff5f56; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green { background: #27c93f; }
+    .terminal-title {
+      color: #8b949e;
+      font-size: 12px;
+      margin-left: 10px;
+      font-weight: 500;
+    }
+    .terminal-body {
+      padding: 18px 22px;
+      color: #e2e8f0;
+      line-height: 1.6;
+      white-space: pre;
+      font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+      font-size: 13px;
+      overflow-x: auto;
+      margin: 0;
+    }
+    .json-key { color: #7ee787; }
+    .json-str { color: #a5d6ff; }
+    .json-bracket { color: #f0f6fc; }
+    .json-comment { color: #8b949e; font-style: italic; }
+
+    /* Bento Cards Table */
+    .bento-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 14px 0;
+      margin: 20px -14px;
+    }
+    .bento-card {
+      background: #090d16;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+      padding: 20px 22px;
+      vertical-align: top;
+    }
+
+    /* Projects Table */
+    .projects-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0 28px;
+    }
+    .projects-table th {
+      background: #161b22;
+      border: 1px solid #30363d;
+      padding: 10px 14px;
+      text-align: left;
+      color: #f0f6fc;
+      font-size: 13.5px;
+    }
+    .projects-table td {
+      border: 1px solid #21262d;
+      padding: 12px 14px;
+      font-size: 13.5px;
+    }
+    .projects-table tr:nth-child(even) {
+      background: #090d16;
     }
   </style>
 </head>
@@ -83,25 +174,58 @@
 
     <div class="content-body">
       <!-- 2. ABOUT ME TEXT -->
-      <h3>About Me</h3>
+      <h3>👨‍💻 About Me</h3>
       <p>Hi, I'm Surya! Just a tech enthusiast who loves web development, building practical apps, exploring system architecture, and experimenting with new tools. Lately, I've been diving deeper into FastAPI, spec-driven development, and handling complex business rules.</p>
+
+      <!-- AVATAR PHOTO -->
+      <div class="center" style="margin: 20px 0;">
+        <img src="avatar_round.png" width="130" alt="Surya AP" />
+      </div>
 
       <blockquote>
         "I don't claim to know everything, but I love getting my hands dirty with code, learning how systems work under the hood, and collaborating with others to build tools that actually help people."
       </blockquote>
 
-      <p><strong>What I Care About:</strong></p>
-      <ul>
-        <li>Clean &amp; readable code</li>
-        <li>Open communication over instinct</li>
-        <li>Owning the outcome</li>
-      </ul>
+      <!-- OPSI 1: TERMINAL CONFIG WINDOW -->
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+          <span class="terminal-title">surya.config.json</span>
+        </div>
+        <pre class="terminal-body">{
+  <span class="json-key">"engineering_dna"</span>: {
+    <span class="json-key">"architecture"</span>: <span class="json-str">"Spec-Driven Development (SDD)"</span>,
+    <span class="json-key">"data_policy"</span>: <span class="json-str">"Zero-Fallback &amp; High Integrity"</span>,
+    <span class="json-key">"mindset"</span>: <span class="json-str">"Open communication, clean code &amp; outcome ownership"</span>
+  },
+  <span class="json-key">"active_r_and_d"</span>: {
+    <span class="json-key">"backend_systems"</span>: [
+      <span class="json-str">"FastAPI"</span>,
+      <span class="json-str">"High-Concurrency Golang"</span>,
+      <span class="json-str">"PostgreSQL"</span>
+    ],
+    <span class="json-key">"frontend_ux"</span>: [
+      <span class="json-str">"React 19"</span>,
+      <span class="json-str">"Next.js 16"</span>,
+      <span class="json-str">"Tailwind v4"</span>
+    ],
+    <span class="json-key">"autonomous_tech"</span>: [
+      <span class="json-str">"Multi-Agent AI Workflows"</span>,
+      <span class="json-str">"Hermes Agent Pipelines"</span>
+    ]
+  }
+}</pre>
+      </div>
 
-      <p><strong>Currently Learning:</strong></p>
-      <ul>
-        <li><strong>Backend &amp; Systems:</strong> FastAPI, Golang, and API design with a spec-driven approach.</li>
-        <li><strong>Frontend:</strong> Building responsive &amp; accessible UIs with React.</li>
-        <li><strong>Engineering Craft:</strong> Clean architecture, scalable system design, and application security.</li>
+      <!-- CORE PRINCIPLES -->
+      <h3 style="margin-top: 32px;">🎯 Core Principles</h3>
+      <ul style="padding-left: 20px; line-height: 1.8;">
+        <li><b>Spec-Driven Architecture:</b> Schema-first development with tight contracts across ORM, API, and UI layers.</li>
+        <li><b>Zero-Fallback Policy:</b> Transparent data contracts without deceptive mock fallbacks that mask bugs.</li>
+        <li><b>Engineering Craft:</b> Clean, readable code written for maintainability and scalability.</li>
+        <li><b>Outcome Ownership:</b> Owning the system end-to-end, taking full accountability from architecture design to production reliability.</li>
       </ul>
 
       <!-- 3. DEDICATED FLOATING TECH STACK SECTION -->
