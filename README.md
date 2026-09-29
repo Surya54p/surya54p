@@ -1,41 +1,33 @@
-<!-- 1. ANIMATED HEADER (WAVE + TWINKLING) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,50:0f172a,100:0284c7&height=220&section=header&text=Surya%20AP&fontSize=48&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=A%20developer%20who%20loves%20details%20%26%20system%20architecture&descAlignY=58&descAlign=50" width="100%" />
-
-  <!-- ANIMATED TYPING TERMINAL -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Software+Developer+%26+System+Architect;FastAPI+%7C+Next.js+%7C+PostgreSQL;Spec-Driven+Development+(SDD);Autonomous+AI+Agents" alt="Typing SVG" />
+  <img src="banner_solar.svg" width="100%" alt="Surya AP - GitHub Banner" />
 </div>
 
 <br/>
 
-<!-- 2. RETRO SNAKE EATING COMMITS ANIMATION -->
+### About Me
+Hi, I'm Surya! Just a tech enthusiast who loves web development, building practical apps, exploring system architecture, and experimenting with new tools. Lately, I've been diving deeper into FastAPI, spec-driven development, and handling complex business rules.
+
+*"I don't claim to know everything, but I love getting my hands dirty with code, learning how systems work under the hood, and collaborating with others to build tools that actually help people."*
+
+**What I Care About:**
+- Clean & readable code
+- Open communication over instinct
+- Owning the outcome
+
+**Currently Learning:**
+- **Backend & Systems:** FastAPI, Golang, and API design with a spec-driven approach.
+- **Frontend:** Building responsive & accessible UIs with React.
+- **Engineering Craft:** Clean architecture, scalable system design, and application security.
+
+<br/>
+
+### Tech Stack
+<div align="center">
+  <img src="tech_stack.svg" width="100%" alt="Tech Stack" />
+</div>
+
+<br/>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Surya54p/Surya54p/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
-</div>
-
-<br/>
-
-<!-- 3. VISUAL TECH STACK -->
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,ts,react,nextjs,tailwind,php,laravel,linux,git&theme=dark" alt="Tech Stack" />
-  </a>
-</div>
-
-<br/>
-
-<!-- 4. ANIMATED STREAK & STATS -->
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Surya54p&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" height="170" />
-</div>
-
-<br/>
-
-<!-- 5. FOOTER WAVE -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,50:0f172a,100:0b0f19&height=120&section=footer" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Surya54p&color=475569&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
