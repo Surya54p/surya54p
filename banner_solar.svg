@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="100%" height="100%">
+  <defs>
+    <radialGradient id="spaceVoid" cx="72%" cy="50%" r="85%">
+      <stop offset="0%" stop-color="#0a1020" />
+      <stop offset="40%" stop-color="#050811" />
+      <stop offset="75%" stop-color="#020306" />
+      <stop offset="100%" stop-color="#000102" />
+    </radialGradient>
+
+    <radialGradient id="nebulaCyan" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.28" />
+      <stop offset="50%" stop-color="#0369a1" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="nebulaPurple" cx="22%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#4338ca" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#1e1b4b" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="portalCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#030712" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0b1329" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="ghMetallicLight" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#f8fafc" />
+      <stop offset="60%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+
+    <linearGradient id="ghDepthExtrude" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+
+    <filter id="softGlowCyan" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="24" />
+    </filter>
+    <filter id="coreGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" />
+    </filter>
+
+    <filter id="logoDepthShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="-4" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.9" />
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#38bdf8" flood-opacity="0.4" />
+    </filter>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="65%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#38bdf8" flood-opacity="0.4" />
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.9" />
+    </filter>
+
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes zeroGravityFloat {
+      0% { transform: translateY(0px) rotate(0deg); }
+      33% { transform: translateY(-8px) rotate(1.2deg); }
+      66% { transform: translateY(5px) rotate(-0.8deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+    @keyframes ambientBreath {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 0.85; transform: scale(1.04); }
+    }
+    @keyframes ringDrift {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.25; }
+      50% { opacity: 0.95; }
+    }
+
+    .space-floating-logo {
+      animation: zeroGravityFloat 9s ease-in-out infinite;
+      transform-origin: 850px 170px;
+    }
+    .ambient-glow {
+      animation: ambientBreath 8s ease-in-out infinite;
+      transform-origin: 850px 170px;
+    }
+    .orbital-ring {
+      animation: ringDrift 80s linear infinite;
+      transform-origin: 850px 170px;
+    }
+    .star-twinkle {
+      animation: twinkle 3.5s ease-in-out infinite;
+    }
+    .font-header {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+    }
+    .font-code {
+      font-family: "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, monospace;
+    }
+  </style>
+
+  <!-- BACKGROUND -->
+  <rect width="1100" height="340" fill="url(#spaceVoid)" />
+  <rect width="1100" height="340" fill="url(#nebulaPurple)" />
+  <rect width="1100" height="340" fill="url(#nebulaCyan)" />
+
+  <!-- STARS -->
+  <g id="starfield">
+    <circle cx="238" cy="22" r="1.24" fill="#e0f2fe" opacity="0.35" />
+    <circle cx="188" cy="312" r="0.92" fill="#e0f2fe" opacity="0.22" />
+    <circle cx="64" cy="297" r="0.7" fill="#ffffff" opacity="0.59" />
+    <circle cx="929" cy="311" r="0.78" fill="#e0f2fe" opacity="0.72" />
+    <circle cx="706" cy="152" r="0.66" fill="#fef9c3" opacity="0.77" class="star-twinkle" style="animation-duration: 4.1s;" />
+    <circle cx="745" cy="186" r="1.1" fill="#38bdf8" opacity="0.68" />
+    <circle cx="785" cy="50" r="1.05" fill="#ffffff" opacity="0.7" />
+    <circle cx="750" cy="305" r="0.69" fill="#e0f2fe" opacity="0.24" />
+    <circle cx="173" cy="129" r="1.37" fill="#38bdf8" opacity="0.43" />
+    <circle cx="757" cy="93" r="0.87" fill="#fef9c3" opacity="0.33" />
+    <circle cx="156" cy="321" r="1.13" fill="#e0f2fe" opacity="0.52" class="star-twinkle" style="animation-duration: 4.1s;" />
+    <circle cx="459" cy="176" r="1.34" fill="#e0f2fe" opacity="0.67" />
+    <circle cx="656" cy="215" r="0.77" fill="#ffffff" opacity="0.33" />
+    <circle cx="654" cy="118" r="1.16" fill="#38bdf8" opacity="0.44" class="star-twinkle" style="animation-duration: 3.4s;" />
+    <circle cx="548" cy="309" r="0.93" fill="#fef9c3" opacity="0.55" />
+    <circle cx="293" cy="270" r="0.99" fill="#ffffff" opacity="0.65" class="star-twinkle" style="animation-duration: 3.5s;" />
+    <circle cx="874" cy="315" r="0.56" fill="#38bdf8" opacity="0.43" />
+    <circle cx="33" cy="68" r="1.18" fill="#fef9c3" opacity="0.52" />
+    <circle cx="706" cy="67" r="0.79" fill="#ffffff" opacity="0.29" />
+    <circle cx="549" cy="266" r="1.26" fill="#ffffff" opacity="0.5" />
+    <circle cx="621" cy="269" r="1.11" fill="#e0f2fe" opacity="0.29" />
+    <circle cx="11" cy="316" r="0.82" fill="#fef9c3" opacity="0.21" />
+    <circle cx="639" cy="132" r="0.56" fill="#ffffff" opacity="0.73" class="star-twinkle" style="animation-duration: 4.5s;" />
+    <circle cx="151" cy="282" r="1.27" fill="#38bdf8" opacity="0.28" />
+    <circle cx="348" cy="145" r="1.03" fill="#e0f2fe" opacity="0.56" />
+    <circle cx="421" cy="169" r="0.9" fill="#fef9c3" opacity="0.6" />
+    <circle cx="1069" cy="241" r="0.62" fill="#fef9c3" opacity="0.33" class="star-twinkle" style="animation-duration: 4.7s;" />
+    <circle cx="461" cy="13" r="0.57" fill="#e0f2fe" opacity="0.58" class="star-twinkle" style="animation-duration: 3.1s;" />
+    <circle cx="686" cy="46" r="1.01" fill="#38bdf8" opacity="0.37" />
+    <circle cx="280" cy="302" r="1.08" fill="#38bdf8" opacity="0.35" />
+    <circle cx="399" cy="58" r="0.6" fill="#38bdf8" opacity="0.46" />
+    <circle cx="120" cy="60" r="0.56" fill="#ffffff" opacity="0.64" />
+    <circle cx="399" cy="284" r="0.95" fill="#fef9c3" opacity="0.45" />
+    <circle cx="164" cy="236" r="1.31" fill="#ffffff" opacity="0.71" class="star-twinkle" style="animation-duration: 6.0s;" />
+    <circle cx="40" cy="57" r="1.43" fill="#e0f2fe" opacity="0.71" />
+    <circle cx="995" cy="119" r="1.36" fill="#e0f2fe" opacity="0.74" />
+    <circle cx="809" cy="145" r="1.43" fill="#fef9c3" opacity="0.67" />
+    <circle cx="1006" cy="89" r="0.69" fill="#ffffff" opacity="0.33" />
+    <circle cx="134" cy="170" r="0.56" fill="#ffffff" opacity="0.55" />
+    <circle cx="332" cy="39" r="1.46" fill="#e0f2fe" opacity="0.25" class="star-twinkle" style="animation-duration: 3.2s;" />
+    <circle cx="491" cy="216" r="0.62" fill="#e0f2fe" opacity="0.73" />
+    <circle cx="91" cy="327" r="0.58" fill="#ffffff" opacity="0.59" />
+    <circle cx="544" cy="114" r="1.17" fill="#fef9c3" opacity="0.39" />
+    <circle cx="624" cy="244" r="0.82" fill="#ffffff" opacity="0.65" class="star-twinkle" style="animation-duration: 4.9s;" />
+    <circle cx="214" cy="47" r="1.04" fill="#e0f2fe" opacity="0.5" />
+    <circle cx="150" cy="135" r="0.87" fill="#ffffff" opacity="0.29" />
+    <circle cx="26" cy="293" r="0.8" fill="#e0f2fe" opacity="0.6" />
+    <circle cx="229" cy="293" r="0.66" fill="#e0f2fe" opacity="0.37" />
+    <circle cx="426" cy="145" r="1.01" fill="#ffffff" opacity="0.35" class="star-twinkle" style="animation-duration: 4.3s;" />
+    <circle cx="576" cy="32" r="0.5" fill="#fef9c3" opacity="0.66" class="star-twinkle" style="animation-duration: 4.3s;" />
+    <circle cx="885" cy="297" r="0.51" fill="#e0f2fe" opacity="0.25" />
+    <circle cx="766" cy="308" r="1.05" fill="#ffffff" opacity="0.46" />
+    <circle cx="91" cy="193" r="0.71" fill="#ffffff" opacity="0.35" />
+    <circle cx="842" cy="327" r="1.25" fill="#e0f2fe" opacity="0.76" />
+    <circle cx="372" cy="221" r="0.52" fill="#fef9c3" opacity="0.64" />
+    <circle cx="853" cy="137" r="0.77" fill="#ffffff" opacity="0.67" />
+    <circle cx="89" cy="250" r="0.72" fill="#38bdf8" opacity="0.69" />
+    <circle cx="476" cy="124" r="0.52" fill="#fef9c3" opacity="0.32" />
+    <circle cx="152" cy="152" r="0.85" fill="#ffffff" opacity="0.51" />
+    <circle cx="66" cy="69" r="1.38" fill="#ffffff" opacity="0.36" />
+    <circle cx="553" cy="29" r="0.61" fill="#fef9c3" opacity="0.46" />
+    <circle cx="1057" cy="69" r="0.89" fill="#fef9c3" opacity="0.55" class="star-twinkle" style="animation-duration: 4.3s;" />
+    <circle cx="1074" cy="285" r="1.19" fill="#e0f2fe" opacity="0.76" />
+    <circle cx="153" cy="179" r="1.12" fill="#ffffff" opacity="0.6" />
+    <circle cx="625" cy="269" r="0.81" fill="#38bdf8" opacity="0.45" />
+    <circle cx="270" cy="108" r="0.92" fill="#e0f2fe" opacity="0.76" />
+    <circle cx="626" cy="217" r="1.05" fill="#fef9c3" opacity="0.2" />
+    <circle cx="669" cy="248" r="0.94" fill="#ffffff" opacity="0.61" />
+    <circle cx="357" cy="53" r="0.78" fill="#ffffff" opacity="0.6" />
+    <circle cx="491" cy="168" r="0.72" fill="#ffffff" opacity="0.32" class="star-twinkle" style="animation-duration: 6.0s;" />
+    <circle cx="159" cy="243" r="0.91" fill="#e0f2fe" opacity="0.58" />
+    <circle cx="796" cy="263" r="0.9" fill="#ffffff" opacity="0.29" />
+    <circle cx="228" cy="227" r="0.72" fill="#ffffff" opacity="0.68" />
+    <circle cx="520" cy="72" r="0.96" fill="#ffffff" opacity="0.68" />
+    <circle cx="659" cy="236" r="1.11" fill="#ffffff" opacity="0.63" />
+    <circle cx="923" cy="91" r="1.24" fill="#fef9c3" opacity="0.48" />
+    <circle cx="577" cy="276" r="0.98" fill="#38bdf8" opacity="0.34" class="star-twinkle" style="animation-duration: 3.9s;" />
+    <circle cx="566" cy="181" r="0.82" fill="#e0f2fe" opacity="0.52" class="star-twinkle" style="animation-duration: 4.1s;" />
+    <circle cx="322" cy="119" r="0.56" fill="#ffffff" opacity="0.44" />
+    <circle cx="137" cy="115" r="1.33" fill="#ffffff" opacity="0.43" />
+    <circle cx="50" cy="304" r="0.88" fill="#fef9c3" opacity="0.2" />
+    <circle cx="808" cy="224" r="1.04" fill="#ffffff" opacity="0.64" />
+    <circle cx="1009" cy="122" r="0.77" fill="#38bdf8" opacity="0.49" />
+    <circle cx="838" cy="94" r="1.34" fill="#ffffff" opacity="0.75" />
+    <circle cx="816" cy="313" r="1.06" fill="#38bdf8" opacity="0.22" class="star-twinkle" style="animation-duration: 4.4s;" />
+    <circle cx="112" cy="143" r="0.88" fill="#fef9c3" opacity="0.33" />
+    <circle cx="786" cy="152" r="1.25" fill="#fef9c3" opacity="0.7" />
+    <circle cx="973" cy="19" r="1.25" fill="#fef9c3" opacity="0.23" />
+    <circle cx="150" cy="30" r="1.25" fill="#e0f2fe" opacity="0.77" />
+    <circle cx="322" cy="132" r="0.63" fill="#ffffff" opacity="0.6" />
+    <circle cx="962" cy="141" r="1.27" fill="#ffffff" opacity="0.3" />
+    <circle cx="244" cy="93" r="1.46" fill="#ffffff" opacity="0.26" />
+    <circle cx="778" cy="213" r="1.44" fill="#ffffff" opacity="0.32" />
+    <circle cx="507" cy="62" r="1.2" fill="#ffffff" opacity="0.38" />
+    <circle cx="94" cy="187" r="1.03" fill="#ffffff" opacity="0.6" />
+    <circle cx="708" cy="16" r="1.35" fill="#ffffff" opacity="0.69" />
+    <circle cx="751" cy="245" r="1.21" fill="#ffffff" opacity="0.46" />
+    <circle cx="563" cy="325" r="1.31" fill="#38bdf8" opacity="0.52" />
+    <circle cx="559" cy="175" r="1.35" fill="#ffffff" opacity="0.7" />
+    <circle cx="933" cy="134" r="1.25" fill="#38bdf8" opacity="0.54" />
+    <circle cx="1022" cy="176" r="0.68" fill="#fef9c3" opacity="0.33" />
+    <circle cx="575" cy="294" r="0.51" fill="#ffffff" opacity="0.77" />
+    <circle cx="842" cy="260" r="1.06" fill="#38bdf8" opacity="0.34" />
+    <circle cx="1015" cy="239" r="1.29" fill="#e0f2fe" opacity="0.26" />
+    <circle cx="508" cy="166" r="1.16" fill="#ffffff" opacity="0.42" />
+    <circle cx="881" cy="291" r="0.83" fill="#fef9c3" opacity="0.62" />
+    <circle cx="482" cy="71" r="1.22" fill="#ffffff" opacity="0.39" />
+    <circle cx="389" cy="108" r="0.72" fill="#ffffff" opacity="0.49" />
+    <circle cx="1084" cy="315" r="0.78" fill="#e0f2fe" opacity="0.26" />
+    <circle cx="749" cy="101" r="0.8" fill="#e0f2fe" opacity="0.62" />
+    <circle cx="121" cy="293" r="0.79" fill="#38bdf8" opacity="0.77" class="star-twinkle" style="animation-duration: 3.0s;" />
+    <circle cx="592" cy="250" r="0.98" fill="#ffffff" opacity="0.4" />
+    <circle cx="988" cy="68" r="1.32" fill="#ffffff" opacity="0.44" />
+    <circle cx="119" cy="87" r="0.65" fill="#fef9c3" opacity="0.54" class="star-twinkle" style="animation-duration: 3.7s;" />
+    <circle cx="862" cy="320" r="1.1" fill="#ffffff" opacity="0.57" />
+    <circle cx="916" cy="162" r="1.36" fill="#fef9c3" opacity="0.79" />
+    <circle cx="133" cy="322" r="1.46" fill="#e0f2fe" opacity="0.26" />
+    <circle cx="551" cy="51" r="0.66" fill="#ffffff" opacity="0.3" class="star-twinkle" style="animation-duration: 4.2s;" />
+    <circle cx="972" cy="159" r="0.53" fill="#fef9c3" opacity="0.37" />
+    <circle cx="939" cy="46" r="1.19" fill="#ffffff" opacity="0.75" />
+    <circle cx="415" cy="227" r="0.61" fill="#e0f2fe" opacity="0.33" />
+    <circle cx="301" cy="46" r="0.56" fill="#ffffff" opacity="0.68" />
+    <circle cx="601" cy="234" r="0.62" fill="#38bdf8" opacity="0.61" />
+    <circle cx="1034" cy="286" r="0.99" fill="#ffffff" opacity="0.25" />
+    <circle cx="670" cy="319" r="0.75" fill="#ffffff" opacity="0.25" />
+    <circle cx="52" cy="147" r="1.08" fill="#e0f2fe" opacity="0.66" />
+    <circle cx="915" cy="152" r="0.68" fill="#38bdf8" opacity="0.55" />
+    <circle cx="972" cy="188" r="0.91" fill="#ffffff" opacity="0.39" />
+    <circle cx="685" cy="220" r="1.19" fill="#38bdf8" opacity="0.37" />
+    <circle cx="85" cy="242" r="0.59" fill="#ffffff" opacity="0.35" />
+    <circle cx="837" cy="273" r="1.32" fill="#ffffff" opacity="0.2" />
+    <circle cx="121" cy="106" r="1.02" fill="#38bdf8" opacity="0.57" />
+    <circle cx="115" cy="114" r="0.77" fill="#fef9c3" opacity="0.28" />
+    <circle cx="1002" cy="72" r="0.53" fill="#e0f2fe" opacity="0.58" />
+    <circle cx="646" cy="292" r="0.51" fill="#e0f2fe" opacity="0.44" />
+    <circle cx="242" cy="246" r="1.45" fill="#e0f2fe" opacity="0.59" />
+    <circle cx="607" cy="270" r="1.21" fill="#38bdf8" opacity="0.45" />
+    <circle cx="509" cy="243" r="1.05" fill="#ffffff" opacity="0.43" />
+    <circle cx="289" cy="45" r="0.78" fill="#38bdf8" opacity="0.67" />
+    <circle cx="1049" cy="146" r="1.32" fill="#fef9c3" opacity="0.37" />
+  </g>
+
+  <!-- ORBITAL RINGS -->
+  <g class="orbital-ring" stroke="#38bdf8" fill="none" opacity="0.24">
+    <ellipse cx="850" cy="170" rx="170" ry="80" stroke-width="1" stroke-dasharray="4 8" transform="rotate(-18 850 170)" />
+    <ellipse cx="850" cy="170" rx="230" ry="110" stroke-width="0.8" stroke-dasharray="2 10" transform="rotate(22 850 170)" />
+    <circle cx="1012" cy="118" r="2.5" fill="#38bdf8" opacity="0.8" />
+    <circle cx="695" cy="228" r="2" fill="#818cf8" opacity="0.8" />
+  </g>
+
+  <!-- AMBIENT GLOW -->
+  <circle cx="850" cy="170" r="145" fill="url(#nebulaCyan)" class="ambient-glow" filter="url(#softGlowCyan)" />
+  <circle cx="850" cy="170" r="85" fill="#38bdf8" opacity="0.12" filter="url(#coreGlow)" />
+
+  <!-- 3D FLOATING GITHUB LOGO -->
+  <g class="space-floating-logo" filter="url(#logoDepthShadow)">
+    <circle cx="850" cy="170" r="90" fill="url(#portalCore)" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.45" />
+    <circle cx="850" cy="170" r="84" fill="none" stroke="#60a5fa" stroke-width="0.75" stroke-dasharray="8 6" opacity="0.28" />
+
+    <g transform="translate(798, 118) scale(4.33)">
+      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" 
+            fill="url(#ghDepthExtrude)" 
+            transform="translate(0, 1.6)" />
+
+      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" 
+            fill="url(#ghMetallicLight)" />
+
+      <path d="M12 0C5.37 0 0 5.37 0 12c0 1.2 .2 2.3 .5 3.3 C2.1 6.5 6.6 1.2 12 1.2 c5.4 0 9.9 5.3 11.5 14.1 c.3-1 .5-2.1 .5-3.3 C24 5.37 18.63 0 12 0z" 
+            fill="#ffffff" opacity="0.32" />
+    </g>
+
+    <circle cx="924" cy="122" r="3.5" fill="#38bdf8" filter="url(#coreGlow)" />
+    <circle cx="924" cy="122" r="1.8" fill="#ffffff" />
+  </g>
+
+  <!-- LEFT: TYPOGRAPHY -->
+  <g transform="translate(75, 95)">
+    <!-- Terminal Status Tag -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="28" rx="14" fill="url(#pillGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="16" cy="14" r="4.5" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="30" y="18" fill="#cbd5e1" class="font-code" font-size="11.5" font-weight="600" letter-spacing="0.5">DEV.ORBIT // ONLINE</text>
+    </g>
+
+    <!-- H1 TITLE -->
+    <text x="0" y="85" fill="url(#textGrad)" class="font-header" font-size="46" letter-spacing="-0.8" filter="url(#textGlow)">
+      Hello, my name is <tspan fill="#38bdf8">Surya</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="2" y="128" fill="#94a3b8" class="font-header" font-size="18" font-weight="400" letter-spacing="0.2">
+      A developer who loves details, system architecture, &amp; precision.
+    </text>
+
+    <!-- CLI Line -->
+    <g transform="translate(2, 175)">
+      <text fill="#64748b" class="font-code" font-size="12.5">
+        <tspan fill="#38bdf8">&gt;</tspan> orbit --target=surya54p --spec=sdd --zero-fallback
+      </text>
+    </g>
+  </g>
+
+</svg>
