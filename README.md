@@ -15,16 +15,9 @@ Hi, I'm Surya! Just a tech enthusiast who loves web development, building practi
 
 <br/>
 
-```json
-{
-  "engineering_dna": {
-    "architecture": "Spec-Driven Development (SDD)",
-    "data_integrity": "Zero-Fallback Policy",
-    "craftsmanship": "Clean, readable & maintainable code",
-    "ownership": "End-to-end accountability from design to production"
-  }
-}
-```
+<div align="center">
+  <img src="terminal_config.svg" width="100%" alt="surya.config.json" />
+</div>
 
 <br/>
 
